@@ -19,7 +19,9 @@ namespace SynthDet.Randomizers
             
             foreach (var tag in tags)
             {
+                
                 tag.transform.localScale *= scale.Sample();
+                
             }
         }
     }
